@@ -41,7 +41,7 @@
       }
 
       $multicast_humans = explode(",",$part[0]);
-      $multicast_return_part = $value / count($multicast_humans);
+      $multicast_return_part = count($value / count($multicast_humans));
 
       foreach($multicast_humans as $creditor){
         $creditor = trim($creditor);
